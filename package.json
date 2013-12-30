@@ -15,7 +15,7 @@
     "keywords": ["widget"],
     "licenses": "MIT",
     "spm": {
-        "output":   ["form.css"],
+        "output":   ["form.min.css"],
         "alias":    {},
         "devAlias": {},
         "engines":  {}
