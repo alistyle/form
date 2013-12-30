@@ -15,12 +15,9 @@
     "keywords": ["widget"],
     "licenses": "MIT",
     "spm": {
-        "output":   ["form.min.css"],
+        "output":   ["form.css"],
         "alias":    {},
         "devAlias": {},
         "engines":  {}
-    },
-    "devDependencies": {
-        "grunt-contrib-cssmin": "~0.7.0"
     }
 }

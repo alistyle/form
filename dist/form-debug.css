@@ -1,0 +1,217 @@
+/*! define alistyle/form/1.0.1/form-debug.css */
+/*
+ * alistyle.form模块
+ * @author ermin.zem
+ * @create 2013-12-17
+ * @version 1.0.1
+ */
+.ali-form {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.ali-form, .ali-form * {
+    list-style: none;
+}
+
+.ali-form fieldset {
+    border:0;
+}
+
+.ali-form legend {
+    display: none;
+}
+
+.ali-form-explain {
+    margin: 0;
+    padding: 8px 0 0;
+    font-size: 12px;
+    color: #B2B2B2;
+}
+
+.ali-form-other {
+    margin-left: 8px;
+}
+
+.ali-form-text {
+    display: inline-block;
+    margin-top: 6px;
+    *display: inline;
+    *zoom: 1;
+}
+
+.ali-form-item:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.ali-form-item {
+    padding: 0 5px 24px 170px;
+    zoom: 1;
+}
+
+.ali-form-item select {
+    vertical-align: middle;
+    margin: 4px 0 0;
+}
+
+.ali-form-item input {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.ali-form-item .ali-input {
+    width: 286px;
+    float: left;
+    color: #595959;
+    vertical-align: middle;
+    *vertical-align: -5px;
+}
+
+.ali-form-item-success .ali-input:hover,
+.ali-form-item-success .ali-textarea:hover {
+    border: 1px #53b0f3 solid;
+}
+.ali-form-item-error .ali-input:focus,
+.ali-form-item-error .ali-textarea:focus {
+    border: 1px #ff8500 solid;
+}
+
+.ali-form-item-error .ali-input,
+.ali-form-item-error .ali-textarea {
+    border: 1px #ff8500 solid;
+}
+.ali-form-item-error .ali-input:hover,
+.ali-form-item-error .ali-textarea:hover {
+    border: 1px #ff8500 solid;
+}
+.ali-form-item-error .ali-input:focus,
+.ali-form-item-error .ali-textarea:focus {
+    border: 1px #ff8500 solid;
+}
+
+.ali-form-item .ali-tiptext-container{
+    float: left;
+    width: 252px;
+    margin-left: 21px;
+    padding: 6px 12px;
+}
+
+.ali-form-item-error .ali-input-reset {
+    border: 1px #9C9C9C solid;
+    color: #000;
+}
+
+.ali-form-item-error .ali-form-explain {
+    color: #FF5243;
+}
+
+.ali-form-large .ali-input {
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    padding: 11px 10px;
+}
+
+.ali-form-large .ali-label {
+    padding-top: 12px;
+}
+
+/*input*/
+.ali-input {
+    padding: 6px 9px;
+    line-height: 18px;
+    border: 1px solid #d7d7d7;
+    color: #595959;
+    font-size: 12px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;;
+}
+
+.ali-input:hover,
+.ali-textarea:hover,
+.ali-input-hover {
+    border: 1px #53b0f3 solid;
+}
+
+.ali-input:focus,
+.ali-textarea:focus,
+.ali-input-focus {
+    border: 1px #53b0f3 solid;
+    outline: none;
+}
+
+.ali-textarea {
+    line-height: 15px;
+    border: 1px #9C9C9C solid;
+    padding: 1px 3px 0 4px;
+    overflow: auto;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.ali-input[disabled],
+.ali-textarea[disabled] {
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+}
+
+.ali-input:disabled,
+.ali-textarea:disabled {
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+}
+
+.placeholder {
+    color: #ccc;
+}
+
+.ali-input-checkcode {
+    width: 100px;
+    height: 24px;
+    line-height: 28px;
+    margin: 0;
+    padding: 2px 5px;
+}
+
+.ali-form-item-hover .ali-input,
+.ali-form-item-hover .ali-textarea {
+    border:1px #727272 solid;
+}
+
+.ali-form-item-focus .ali-input,
+.ali-form-item-focus .ali-textarea {
+    border: 1px #07f solid;
+    box-shadow: 0 0 3px #8cddff;
+}
+
+.ali-form-item-focus .ali-form-explain,
+.ali-form-item-hover .ali-form-explain {
+    color:#333;
+}
+
+/*label*/
+.ali-label {
+    float: left;
+    width: 180px;
+    margin-left: -180px;
+    padding-top: 5px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.ali-form-required {
+    color: #FF0000;
+    font-family: SimSun;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+input.ali-checkbox {
+    vertical-align: baseline;
+}
