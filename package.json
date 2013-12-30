@@ -1,26 +1,26 @@
 {
-  "family":      "alistyle",
-  "name":        "form",
-  "version":     "1.0.1",
-  "description": "alibaba css theme - form",
-  "homepage":    "https://github.com/alistyle/form.git",
-  "author":      "ermin.zem",
-  "repository":  {
-    "type": "git",
-    "url":  "https://github.com/alistyle/form.git"
-  },
-  "bugs": {
-    "url": ""
-  },
-  "keywords": ["widget"],
-  "licenses": "MIT",
-  "spm": {
-    "output":   ["form.css"],
-    "alias":    {},
-    "devAlias": {},
-    "engines":  {}
-  },
-  "devDependencies": {
-    "grunt-contrib-cssmin": "~0.7.0"
-  }
+    "family":      "alistyle",
+    "name":        "form",
+    "version":     "1.0.1",
+    "description": "alibaba css theme - form",
+    "homepage":    "https://github.com/alistyle/form.git",
+    "author":      "ermin.zem",
+    "repository":  {
+        "type": "git",
+        "url":  "https://github.com/alistyle/form.git"
+    },
+    "bugs": {
+        "url": ""
+    },
+    "keywords": ["widget"],
+    "licenses": "MIT",
+    "spm": {
+        "output":   ["form.css"],
+        "alias":    {},
+        "devAlias": {},
+        "engines":  {}
+    },
+    "devDependencies": {
+        "grunt-contrib-cssmin": "~0.7.0"
+    }
 }
