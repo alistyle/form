@@ -107,17 +107,6 @@
     color: #FF5243;
 }
 
-.ali-form-large .ali-input {
-    font-size: 14px;
-    height: 18px;
-    line-height: 18px;
-    padding: 11px 10px;
-}
-
-.ali-form-large .ali-label {
-    padding-top: 12px;
-}
-
 /*input*/
 .ali-input {
     padding: 6px 9px;
@@ -148,6 +137,9 @@
     height: 70px;
     line-height: 15px;
     border: 1px #9C9C9C solid;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
     padding: 9px;
     overflow: auto;
     font-family: Arial;
@@ -214,4 +206,30 @@
 
 input.ali-checkbox {
     vertical-align: baseline;
+}
+
+/*pop-validator*/
+.ali-form-item-error .ali-tiptext-container{
+    background: #fdefde;
+    border: 1px solid #fdb866;
+}
+.ali-form-item-error .ali-tiptext-arrow em{
+    color: #fdb866;
+}
+.ali-form-item-error .ali-tiptext-arrow span{
+    color: #fdefde;
+}
+.ali-form-item-error .ali-tiptext-icon{
+    color: #ff6900;
+}
+.ali-form-item-success .ali-tiptext-container{
+    border: 0;
+    padding-left: 0!important;
+    background: 0 0;
+}
+.ali-form-item-success .ali-tiptext-container .ali-tiptext-arrow{
+    display: none;
+}
+.ali-form-item-success .ali-tiptext-icon{
+    color: #98db00;
 }
