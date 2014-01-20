@@ -1,0 +1,340 @@
+.ali-button * {
+    margin:0;
+    padding:0;
+}
+
+.ali-button {
+    display: inline-block;
+    *display: inline;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: inherit; /* Correct font family not being inherited in all browsers for <button> <input> */
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 0 20px;
+    *zoom: 1;
+    *overflow: visible; /* for a ie6/7 bug http://blog.csdn.net/jyy_12/article/details/6636099 */    
+    background-image: none; /* for old alice button style conflict */
+}
+
+.ali-button .ali-button-text {
+    background: none;
+    padding: 0;
+    height: auto;
+}
+
+.ali-button:hover {
+    text-decoration: none;
+    background-image: none; /* for old alice button style conflict */    
+}
+
+input.ali-button-text, button.ali-button-text {
+    *vertical-align: top; /* for a ie7 bug */
+}
+
+.ali-button:active {
+    position: relative;
+    top: 1px;
+    box-shadow: 1px 1px 3px #999 inset;
+}
+
+
+
+.ali-button-lorange,
+.ali-button-morange,
+.ali-button-sorange {
+    color: #fff;
+    border: none;
+    background-color: #fc8425;
+}
+
+.ali-button-lorange:hover,
+.ali-button-morange:hover,
+.ali-button-sorange:hover {
+    background-color: #fb8318;
+}
+
+a.ali-button-lorange,
+a.ali-button-morange,
+a.ali-button-sorange,
+a.ali-button-lorange:hover,
+a.ali-button-morange:hover,
+a.ali-button-sorange:hover,
+a.ali-button-lorange:active,
+a.ali-button-morange:active,
+a.ali-button-sorange:active {
+    color:#fff;
+}
+
+.ali-button-lorange {
+    line-height:32px;
+    height:32px;
+}
+
+.ali-button-morange {
+    line-height:28px;
+    height:28px;
+}
+
+.ali-button-sorange {
+    padding: 0 12px;
+    line-height:24px;
+    height:24px;
+    font-size:12px;
+}
+
+a.ali-button-lorange {
+    line-height:30px;
+    height:30px;
+}
+
+a.ali-button-morange {
+    line-height:26px;
+    height:26px;
+}
+
+a.ali-button-sorange {
+    line-height:22px;
+    height:22px;
+}
+
+
+.ali-button-lwhite,
+.ali-button-mwhite,
+.ali-button-swhite {
+    border:1px solid #afafaf;
+    background-color: #f3f3f3;
+    color: #777;
+}
+
+.ali-button-lwhite:hover,
+.ali-button-mwhite:hover,
+.ali-button-swhite:hover {
+    border: 1px solid #8e8e8e;
+    background-color: #fcfbfb;
+    color: #676d70;
+}
+
+a.ali-button-lwhite,
+a.ali-button-mwhite,
+a.ali-button-swhite,
+a.ali-button-lwhite:active,
+a.ali-button-mwhite:active,
+a.ali-button-swhite:active {
+    color: #777;
+}
+a.ali-button-lwhite:hover,
+a.ali-button-mwhite:hover,
+a.ali-button-swhite:hover {
+    color:#676d70;
+}
+
+.ali-button-lwhite {
+    line-height:32px;
+    height:32px;
+}
+
+.ali-button-mwhite {
+    line-height:28px;
+    height:28px;
+}
+
+.ali-button-swhite {
+    line-height:24px;
+    height:24px;
+    padding:0 12px;
+    font-size:12px;
+}
+
+a.ali-button-lwhite {
+    line-height:30px;
+    height:30px;
+}
+
+a.ali-button-mwhite {
+    line-height:26px;
+    height:26px;
+}
+
+a.ali-button-swhite {
+    line-height:22px;
+    height:22px;
+}
+
+
+
+.ali-button-ldisable,
+.ali-button-mdisable,
+.ali-button-sdisable {
+    color:#999;
+    border: none;
+    background: #cacccd;
+    cursor: default;
+}
+
+a.ali-button-ldisable,
+a.ali-button-mdisable,
+a.ali-button-sdisable,
+a.ali-button-ldisable:active,
+a.ali-button-mdisable:active,
+a.ali-button-sdisable:active,
+a.ali-button-ldisable:hover,
+a.ali-button-mdisable:hover,
+a.ali-button-sdisable:hover {
+    color:#999;
+}
+
+.ali-button-ldisable {
+    line-height:32px;
+    height:32px;
+}
+
+.ali-button-mdisable {
+    line-height:28px;
+    height:28px;
+}
+
+.ali-button-sdisable {
+    line-height:24px;
+    height:24px;
+    padding:0 12px;
+    font-size:12px;
+}
+
+.ali-button-ldisable,
+.ali-button-mdisable,
+.ali-button-sdisable {
+    cursor: default!important;
+}
+
+.ali-button-ldisable:active,
+.ali-button-mdisable:active,
+.ali-button-sdisable:active {
+    position: static;
+    top: 0;
+    box-shadow: none;
+}
+
+
+
+.ali-button-lblue,
+.ali-button-mblue,
+.ali-button-sblue {
+    border:none;
+    color:#fff;
+    border: 1px solid #154c67;
+    background-color: #006ba1;
+}
+
+.ali-button-lblue:hover,
+.ali-button-mblue:hover,
+.ali-button-sblue:hover {
+    background-color: #007ab8;
+}
+
+a.ali-button-lblue,
+a.ali-button-mblue,
+a.ali-button-sblue,
+a.ali-button-lblue:active,
+a.ali-button-mblue:active,
+a.ali-button-sblue:active,
+a.ali-button-lblue:hover,
+a.ali-button-mblue:hover,
+a.ali-button-sblue:hover {
+    color:#fff;
+}
+
+.ali-button-lblue {
+    line-height:32px;
+    height:32px;
+}
+
+.ali-button-mblue {
+    line-height:28px;
+    height:28px;
+}
+
+.ali-button-sblue {
+    padding: 0 12px;
+    line-height:24px;
+    height:24px;
+    font-size:12px;
+}
+
+a.ali-button-lblue {
+    line-height:30px;
+    height:30px;
+}
+
+a.ali-button-mblue {
+    line-height:26px;
+    height:26px;
+}
+
+a.ali-button-sblue {
+    line-height:22px;
+    height:22px;
+}
+
+
+
+.ali-button-lgreen,
+.ali-button-mgreen,
+.ali-button-sgreen {
+    color: #fff;
+    border:1px solid #379000;
+    background-color: #4BB402;
+}
+
+.ali-button-lgreen:hover,
+.ali-button-mgreen:hover,
+.ali-button-sgreen:hover {
+    background-color: #66BC2A;
+}
+
+a.ali-button-lgreen,
+a.ali-button-mgreen,
+a.ali-button-sgreen,
+a.ali-button-lgreen:hover,
+a.ali-button-mgreen:hover,
+a.ali-button-sgreen:hover,
+a.ali-button-lgreen:active,
+a.ali-button-mgreen:active,
+a.ali-button-sgreen:active {
+    color:#fff;
+}
+
+.ali-button-lgreen {
+    line-height:32px;
+    height:32px;
+}
+
+.ali-button-mgreen {
+    line-height:28px;
+    height:28px;
+}
+
+.ali-button-sgreen {
+    padding: 0 12px;
+    line-height:24px;
+    height:24px;
+    font-size:12px;
+}
+
+a.ali-button-lgreen {
+    line-height:30px;
+    height:30px;
+}
+
+a.ali-button-mgreen {
+    line-height:26px;
+    height:26px;
+}
+
+a.ali-button-sgreen {
+    line-height:22px;
+    height:22px;
+}

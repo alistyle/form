@@ -16,7 +16,11 @@
     "licenses": "MIT",
     "spm": {
         "output":   ["form.css"],
-        "alias":    {},
+        "alias":    {
+            "base":    "alistyle/base/1.0.1/base.css",
+            "button":  "alistyle/button/1.0.1/button.css",
+            "tiptext": "alistyle/tiptext/1.0.1/tiptext.css"
+        },
         "devAlias": {},
         "engines":  {}
     }
